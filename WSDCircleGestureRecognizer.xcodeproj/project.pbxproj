@@ -12,6 +12,7 @@
 		D27170D01C8DC30E006ECA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27170CE1C8DC30E006ECA5A /* Main.storyboard */; };
 		D27170D21C8DC30E006ECA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27170D11C8DC30E006ECA5A /* Assets.xcassets */; };
 		D27170D51C8DC30E006ECA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27170D31C8DC30E006ECA5A /* LaunchScreen.storyboard */; };
+		D27170DE1C8DC572006ECA5A /* CircleGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27170DD1C8DC572006ECA5A /* CircleGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D27170D11C8DC30E006ECA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27170D41C8DC30E006ECA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D27170D61C8DC30E006ECA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27170DD1C8DC572006ECA5A /* CircleGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D27170C91C8DC30E006ECA5A /* WSDCircleGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				D27170DC1C8DC572006ECA5A /* CircleGestureRecognizer */,
 				D27170CA1C8DC30E006ECA5A /* AppDelegate.swift */,
 				D27170CC1C8DC30E006ECA5A /* ViewController.swift */,
 				D27170CE1C8DC30E006ECA5A /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D27170D61C8DC30E006ECA5A /* Info.plist */,
 			);
 			path = WSDCircleGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		D27170DC1C8DC572006ECA5A /* CircleGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				D27170DD1C8DC572006ECA5A /* CircleGestureRecognizer.swift */,
+			);
+			path = CircleGestureRecognizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27170DE1C8DC572006ECA5A /* CircleGestureRecognizer.swift in Sources */,
 				D27170CD1C8DC30E006ECA5A /* ViewController.swift in Sources */,
 				D27170CB1C8DC30E006ECA5A /* AppDelegate.swift in Sources */,
 			);
